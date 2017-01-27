@@ -18,4 +18,7 @@ file.write(str(aldur))
 file.close()
 
 
+file = open(nafnskra, "r")
+print(file.read())
+file.close()
 
